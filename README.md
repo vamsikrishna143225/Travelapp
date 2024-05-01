@@ -1,0 +1,11 @@
+Android Studio is the primary integrated development environment (IDE) for Android app development. It's an official tool provided by Google, designed specifically for building applications for the Android platform. Android Studio offers a comprehensive suite of features tailored to streamline the entire app development process, from conceptualization to deployment on various Android devices.
+Some key features of Android Studio include:
+1. Intelligent Code Editor: Android Studio comes with a powerful code editor that provides features such as code completion, refactoring, syntax highlighting, and code templates to enhance productivity.
+2. Visual Layout Editor: Developers can easily design app layouts using Android Studio's visual layout editor, which offers drag-and-drop functionality along with real-time previews of how the layout will appear on different devices.
+3. Emulator: Android Studio includes an emulator that allows developers to test their apps on virtual Android devices with different screen sizes, resolutions, and hardware configurations.
+4. Performance Profiling Tools: Developers can analyze their app's performance using built-in profiling tools, which help identify areas for optimization in terms of CPU, memory, and network usage.
+5. Version Control Integration: Android Studio seamlessly integrates with version control systems like Git, enabling collaborative development and easy management of code changes.
+6. Gradle Build System: Android Studio utilizes the Gradle build system, which automates the process of building, testing, and deploying Android apps, making it easier to manage dependencies and build configurations.
+Overall, Android Studio empowers developers to create high-quality Android applications efficiently, whether they're building their first app or working on complex, feature-rich projects.
+Using this I made an Android app called Pack your Bags it a travel ticket booking app since I am a beginner in process of learning android studio using Kotlin I managed to make it with very basic features 
+I have implemented few of the features of android that were taught to us in class like navigation drawer, toast, rating bar, shared preferences, model views etc. so let’s get into more details and get more understanding about my project
