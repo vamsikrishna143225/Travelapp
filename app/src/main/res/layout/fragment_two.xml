@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_bar"
+            android:layout_marginTop="15dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MY TRIPS"
+                    android:textSize="40dp"
+                    android:textColor="@color/orange"
+                    android:textAlignment="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name:Vamsi Krishna"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Destination:Delhi"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Pickup location:Jalandhar"
+                    android:textSize="30dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="275dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name:Vamsi Krishna"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Destination:Jalandhar"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Pickup location:Delhi"
+                    android:textSize="30dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="450dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name:Vamsi Krishna"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Destination:Jalandhar"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Pickup location:Delhi"
+                    android:textSize="30dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="625dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name:Vamsi Krishna"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Destination:Jalandhar"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Pickup location:Delhi"
+                    android:textSize="30dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="800dp"
+                android:background="@drawable/search_bar">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Name:Vamsi Krishna"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:text="Destination:Jalandhar"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Pickup location:Delhi"
+                    android:textSize="30dp"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

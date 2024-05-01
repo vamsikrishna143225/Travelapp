@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/baseline_train_24" />
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/baseline_airplane_ticket_24" />
+
+                <ImageButton
+                    android:id="@+id/img3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/baseline_airport_shuttle_24" />
+
+
+            </GridLayout>
+
+            <SearchView
+                android:id="@+id/scroll_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/search_bar"
+                android:backgroundTint="@color/white2"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@android:color/transparent"
+                android:queryHint="Enter the destination" />
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/searchView"
+                android:backgroundTint="@color/white2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <SearchView
+                android:id="@+id/scroll_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/search_bar"
+                android:backgroundTint="@color/white2"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@android:color/transparent"
+                android:queryHint="Enter the pick up location" />
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:onClick="onButtonClick"
+                android:text="Search" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="134dp"
+                    android:layout_height="137dp"
+                    app:cardCornerRadius="16dp"
+                    android:layout_marginLeft="37dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/image1"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="134dp"
+                    android:layout_height="137dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    app:cardCornerRadius="16dp"
+                    android:layout_marginLeft="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/image2"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="134dp"
+                    android:layout_height="137dp"
+                    app:cardCornerRadius="16dp"
+                    android:layout_marginLeft="37dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/image3"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="134dp"
+                    android:layout_height="137dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    app:cardCornerRadius="16dp"
+                    android:layout_marginLeft="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/image4"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
